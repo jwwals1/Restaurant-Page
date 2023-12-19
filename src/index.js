@@ -1,1 +1,3 @@
-console.log('test')
+import loadPage from './pageLoad'
+
+loadPage();
