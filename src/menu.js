@@ -42,10 +42,10 @@ const createMenuPage = () => {
     const menuItem3Image = document.createElement('img')
     menuItem3Image.src = '../media/lasagna.png'
 
-    pageContent.appendChild(title)
     pageContent.appendChild(menuList)
     content.appendChild(pageContent)
 
+    menuList.appendChild(title)
     menuList.appendChild(menuItem1)
     menuItem1.appendChild(menuItem1Title)
     menuItem1.appendChild(menuItem1Description)
