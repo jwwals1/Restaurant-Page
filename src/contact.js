@@ -40,10 +40,10 @@ const createContactPage = () => {
     contactList3PhoneNumber.innerHTML = '333-555-2222';
 
 
-    pageContent.appendChild(title);
     pageContent.appendChild(contactList);
     content.appendChild(pageContent);
 
+    contactList.appendChild(title);
     contactList.appendChild(contactList1);
     contactList1.appendChild(contactList1Name);
     contactList1.appendChild(contactList1Title);
