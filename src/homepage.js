@@ -5,6 +5,11 @@ const createRestaurantHomePage = () => {
     const homePageContent = document.createElement('div');
     homePageContent.setAttribute('id', 'homePageContent');
 
+    // const backgroundPhoto = document.createElement('img');
+    // backgroundPhoto.src = '../media/backgroundphoto.jpg'
+    // backgroundPhoto.setAttribute('id', 'backgroudPhoto')
+    // pageContent.appendChild(backgroundPhoto)
+
     const title = document.createElement('h1');
     title.textContent = "Restaurant Homepage"
     homePageContent.appendChild(title)
@@ -18,7 +23,7 @@ const createRestaurantHomePage = () => {
     homePageContent.appendChild(headline)
 
     const review = document.createElement('h4');
-    review.textContent = "This is the best restaurant in town! Come here and try all of the great food. You will enjoy it."
+    review.textContent = "This is the best restaurant in town! Come here and try all of the great food. Everything is worth eating. Great experince. You will enjoy it."
     homePageContent.appendChild(review)
 
     const reviewName = document.createElement('h5');
