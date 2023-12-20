@@ -2,24 +2,31 @@ const createRestaurantHomePage = () => {
     const content = document.querySelector('#content');
     const pageContent = document.createElement('div');
     pageContent.classList.add('page-content');
+    const homePageContent = document.createElement('div');
+    homePageContent.setAttribute('id', 'homePageContent');
 
     const title = document.createElement('h1');
     title.textContent = "Restaurant Homepage"
-    pageContent.appendChild(title)
+    homePageContent.appendChild(title)
 
     const image = document.createElement('img');
     image.src = '../media/pasta.png'
-    pageContent.appendChild(image)
+    homePageContent.appendChild(image)
 
     const headline = document.createElement('h3');
     headline.textContent = "Best Restaurant in Town!"
-    pageContent.appendChild(headline)
+    homePageContent.appendChild(headline)
 
     const review = document.createElement('h4');
     review.textContent = "The is the best restaurant in town! Come here and try all of the great food. You will enjoy it."
-    pageContent.appendChild(review)
+    homePageContent.appendChild(review)
 
-    content.appendChild(pageContent)
+    const reviewName = document.createElement('h5');
+    reviewName.textContent = '-Reviewer Name'
+    homePageContent.appendChild(reviewName)
+
+    pageContent.appendChild(homePageContent);
+    content.appendChild(pageContent);
 }
 
 export default createRestaurantHomePage
