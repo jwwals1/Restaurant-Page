@@ -18,7 +18,7 @@ const createRestaurantHomePage = () => {
     homePageContent.appendChild(headline)
 
     const review = document.createElement('h4');
-    review.textContent = "The is the best restaurant in town! Come here and try all of the great food. You will enjoy it."
+    review.textContent = "This is the best restaurant in town! Come here and try all of the great food. You will enjoy it."
     homePageContent.appendChild(review)
 
     const reviewName = document.createElement('h5');
