@@ -1,3 +1,56 @@
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons>div {
+    border: solid;
+    margin: 20px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#buttons>div:hover {
+    background-color: black;
+    color: white;
+    border: solid;
+}
+
+#homePageContent {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#homePageContent>h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#homePageContent>h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#homePageContent>h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#homePageContent>h5 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 85%;
+}
+
 img {
-    width: 100px;
+    width: 400px;
 }
