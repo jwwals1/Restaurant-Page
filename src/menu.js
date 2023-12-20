@@ -18,7 +18,7 @@ const createMenuPage = () => {
     menuItem1Description.textContent = "Ground Beef, onion, garlic, bell pepper, tomato,"
 
     const menuItem1Image = document.createElement('img');
-    menuItem1Image.src = '../media/spaghetti.png'
+    menuItem1Image.src = './media/spaghetti.png'
 
     const menuItem2 = document.createElement('div');
     menuItem2.setAttribute('id', 'menuList2');
