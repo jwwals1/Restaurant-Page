@@ -11,36 +11,55 @@ const createMenuPage = () => {
 
     const menuItem1 = document.createElement('div');
     menuItem1.setAttribute('id', 'menuList1');
-    menuItem1.textContent = 'Spaghetti'
+    const menuItem1Title = document.createElement('h1')
+    menuItem1Title.textContent = 'Spaghetti'
 
     const menuItem1Description = document.createElement('h3')
     menuItem1Description.textContent = "Ground Beef, onion, garlic, bell pepper, tomato,"
 
-    const menu1image = document.createElement('img');
-    menu1image.src = '../media/pasta1.png'
+    const menuItem1Image = document.createElement('img');
+    menuItem1Image.src = '../media/pasta1.png'
 
     const menuItem2 = document.createElement('div');
     menuItem2.setAttribute('id', 'menuList2');
-    menuItem2.textContent = "Chicken Alfrado"
+    const menuItem2Title = document.createElement('h1')
+    menuItem2Title.textContent = 'Chicken Alfredo'
 
     const menuItem2Description = document.createElement('h3')
     menuItem2Description.textContent = "Chicken Breast, whole milk, fettuccine noodles, parmesan, heavy cream"
 
-    const menu2image = document.createElement('img')
-    menu2image.src = '../media/Alfredo.jpg'
+    const menuItem2Image = document.createElement('img')
+    menuItem2Image.src = '../media/Alfredo.jpg'
 
+    const menuItem3 = document.createElement('div');
+    menuItem3.setAttribute('id', 'menuList3');
+    const menuItem3Title = document.createElement('h1')
+    menuItem3Title.textContent = "Lasagna"
+
+    const menuItem3Description = document.createElement('h3')
+    menuItem3Description.textContent = "Ground Beef, onion, tomato, lasagna noodles, parmesan, mozzarella, and ricotta cheese "
+
+    const menuItem3Image = document.createElement('img')
+    menuItem3Image.src = '../media/lasagna.png'
 
     menuList.appendChild(menuItem1)
+    menuItem1.appendChild(menuItem1Title)
     menuItem1.appendChild(menuItem1Description)
-    menuItem1.appendChild(menu1image)
+    menuItem1.appendChild(menuItem1Image)
 
     pageContent.appendChild(title)
     pageContent.appendChild(menuList)
     content.appendChild(pageContent)
 
     menuList.appendChild(menuItem2)
+    menuItem2.appendChild(menuItem2Title)
     menuItem2.appendChild(menuItem2Description)
-    menuItem2.appendChild(menu2image)
+    menuItem2.appendChild(menuItem2Image)
+
+    menuList.appendChild(menuItem3)
+    menuItem3.appendChild(menuItem3Title)
+    menuItem3.appendChild(menuItem3Description)
+    menuItem3.appendChild(menuItem3Image)
 }
 
 export default createMenuPage;
