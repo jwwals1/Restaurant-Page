@@ -42,14 +42,15 @@ const createMenuPage = () => {
     const menuItem3Image = document.createElement('img')
     menuItem3Image.src = '../media/lasagna.png'
 
+    pageContent.appendChild(title)
+    pageContent.appendChild(menuList)
+    content.appendChild(pageContent)
+
     menuList.appendChild(menuItem1)
     menuItem1.appendChild(menuItem1Title)
     menuItem1.appendChild(menuItem1Description)
     menuItem1.appendChild(menuItem1Image)
 
-    pageContent.appendChild(title)
-    pageContent.appendChild(menuList)
-    content.appendChild(pageContent)
 
     menuList.appendChild(menuItem2)
     menuItem2.appendChild(menuItem2Title)
@@ -60,6 +61,7 @@ const createMenuPage = () => {
     menuItem3.appendChild(menuItem3Title)
     menuItem3.appendChild(menuItem3Description)
     menuItem3.appendChild(menuItem3Image)
+
 }
 
 export default createMenuPage;
