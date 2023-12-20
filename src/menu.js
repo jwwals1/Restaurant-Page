@@ -18,7 +18,7 @@ const createMenuPage = () => {
     menuItem1Description.textContent = "Ground Beef, onion, garlic, bell pepper, tomato,"
 
     const menuItem1Image = document.createElement('img');
-    menuItem1Image.src = '../media/pasta1.png'
+    menuItem1Image.src = '../media/spaghetti.png'
 
     const menuItem2 = document.createElement('div');
     menuItem2.setAttribute('id', 'menuList2');
@@ -26,10 +26,10 @@ const createMenuPage = () => {
     menuItem2Title.textContent = 'Chicken Alfredo'
 
     const menuItem2Description = document.createElement('h3')
-    menuItem2Description.textContent = "Chicken Breast, whole milk, fettuccine noodles, parmesan, heavy cream"
+    menuItem2Description.textContent = "Chicken Breast, whole milk, fettuccine noodles, parmesan, heavy cream, peas"
 
     const menuItem2Image = document.createElement('img')
-    menuItem2Image.src = '../media/Alfredo.jpg'
+    menuItem2Image.src = '../media/alfredo.png'
 
     const menuItem3 = document.createElement('div');
     menuItem3.setAttribute('id', 'menuList3');
