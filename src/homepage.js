@@ -6,7 +6,7 @@ const createRestaurantHomePage = () => {
     homePageContent.setAttribute('id', 'homePageContent');
 
     const title = document.createElement('h1');
-    title.textContent = "estaurant Homepage"
+    title.textContent = "staurant Homepage"
     homePageContent.appendChild(title)
 
     const image = document.createElement('img');
