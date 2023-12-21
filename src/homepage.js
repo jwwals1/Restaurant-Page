@@ -5,13 +5,8 @@ const createRestaurantHomePage = () => {
     const homePageContent = document.createElement('div');
     homePageContent.setAttribute('id', 'homePageContent');
 
-    // const backgroundPhoto = document.createElement('img');
-    // backgroundPhoto.src = '../media/backgroundphoto.jpg'
-    // backgroundPhoto.setAttribute('id', 'backgroudPhoto')
-    // pageContent.appendChild(backgroundPhoto)
-
     const title = document.createElement('h1');
-    title.textContent = "Restaurant Homepage"
+    title.textContent = "estaurant Homepage"
     homePageContent.appendChild(title)
 
     const image = document.createElement('img');
