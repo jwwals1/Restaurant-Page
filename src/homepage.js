@@ -10,7 +10,7 @@ const createRestaurantHomePage = () => {
     homePageContent.appendChild(title)
 
     const image = document.createElement('img');
-    image.src = 'Restaurant-Page/media/pasta.png'
+    image.src = 'media/pasta.png'
     homePageContent.appendChild(image)
 
     const headline = document.createElement('h3');
