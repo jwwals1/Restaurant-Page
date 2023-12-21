@@ -6,7 +6,7 @@ body {
 
 .page-content {
     display: grid;
-    background-image: url('../media/backgroundphoto.jpg');
+    background-image: url('./media/backgroundphoto.jpg');
 }
 
 
