@@ -18,7 +18,7 @@ const createMenuPage = () => {
     menuItem1Description.textContent = "Ground Beef, onion, garlic, bell pepper, tomato,"
 
     const menuItem1Image = document.createElement('img');
-    menuItem1Image.src = 'Restaurant-Page/media/spaghetti.png'
+    menuItem1Image.src = './media/spaghetti.png'
 
     const menuItem2 = document.createElement('div');
     menuItem2.setAttribute('id', 'menuList2');
@@ -29,7 +29,7 @@ const createMenuPage = () => {
     menuItem2Description.textContent = "Chicken Breast, whole milk, fettuccine noodles, parmesan, heavy cream, peas"
 
     const menuItem2Image = document.createElement('img')
-    menuItem2Image.src = '../media/alfredo.png'
+    menuItem2Image.src = './media/alfredo.png'
 
     const menuItem3 = document.createElement('div');
     menuItem3.setAttribute('id', 'menuList3');
@@ -40,7 +40,7 @@ const createMenuPage = () => {
     menuItem3Description.textContent = "Ground Beef, onion, tomato, lasagna noodles, parmesan, mozzarella, and ricotta cheese "
 
     const menuItem3Image = document.createElement('img')
-    menuItem3Image.src = '../media/lasagna.png'
+    menuItem3Image.src = './media/lasagna.png'
 
     pageContent.appendChild(menuList)
     content.appendChild(pageContent)

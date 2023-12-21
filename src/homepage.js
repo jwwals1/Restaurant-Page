@@ -6,11 +6,11 @@ const createRestaurantHomePage = () => {
     homePageContent.setAttribute('id', 'homePageContent');
 
     const title = document.createElement('h1');
-    title.textContent = "staurant Homepage"
+    title.textContent = "Restaurant Homepage"
     homePageContent.appendChild(title)
 
     const image = document.createElement('img');
-    image.src = 'media/pasta.png'
+    image.src = './media/pasta.png'
     homePageContent.appendChild(image)
 
     const headline = document.createElement('h3');
